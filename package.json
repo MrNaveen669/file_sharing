@@ -2,12 +2,13 @@
     "name": "app",
     "version": "0.1.0",
     "private": true,
-    "scripts": {
-        "dev": "cross-env NODE_ENV=development nodemon server.js",
-        "build": "next build",
-        "start": "cross-env NODE_ENV=production node server.ts",
-        "lint": "eslint"
-    },
+   "scripts": {
+      "dev": "cross-env NODE_ENV=development ts-node server.ts",
+      "build": "next build",
+      "start": "cross-env NODE_ENV=production ts-node server.ts",
+      "lint": "eslint"
+      }
+
     "dependencies": {
         "@hookform/resolvers": "^5.2.2",
         "@radix-ui/react-accordion": "^1.2.12",
