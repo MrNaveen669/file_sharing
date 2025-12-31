@@ -7,7 +7,7 @@
       "build": "next build",
       "start": "cross-env NODE_ENV=production ts-node server.ts",
       "lint": "eslint"
-      }
+      },
 
     "dependencies": {
         "@hookform/resolvers": "^5.2.2",
